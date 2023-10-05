@@ -10,15 +10,23 @@
   background-color: #1d1e33;
   border-radius: 5px;
 }
-.container h2{
+
+.container h2 {
   text-align: center;
 }
 
 @media (prefers-color-scheme: light) {
-  .container{
+  .container {
     color: #fdfdfd;
   }
-  button{
+
+  button {
     color: #fdfdfd;
+  }
+}
+
+@media (max-width :480px) {
+  .container {
+    max-width: 80vw;
   }
 }

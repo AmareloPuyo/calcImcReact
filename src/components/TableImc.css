@@ -35,3 +35,11 @@ button{
 .high{
     color:red;
 }
+
+
+@media (max-width : 480px){
+    .table-data p, .table-header h4{
+        min-width: 4em ;
+    }
+
+}
