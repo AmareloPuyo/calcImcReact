@@ -1,0 +1,17 @@
+.form-control{
+    min-width: 250px;
+    line-height: 4rem;
+}
+
+.form-control label{
+    display: flex;
+    flex-direction: column;
+}
+.form-control input{
+    padding-left: 10px;
+    height: 1.5rem;
+}
+.action-control{
+    display: flex;
+    justify-content: space-between;
+}
